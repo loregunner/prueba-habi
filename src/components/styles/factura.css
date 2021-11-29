@@ -1,0 +1,67 @@
+
+  .factura1 {
+    background-color: #ffffff;
+    color: #741616;
+    padding: 1em;
+    margin-bottom: 1rem;
+    width: 80%;
+    height: 531px;
+    border-radius: 10px;
+    overflow: auto;
+  }
+  .title {
+    font-size: 2em;
+    padding: 0.2em;
+    border-bottom: 3px;
+    border-bottom-style: solid;
+    border-color: #741616;
+    text-emphasis-color: #741616;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25em;
+    padding: 0.2em;
+    border-bottom: 3px;
+    border-top-style: solid;
+    border-color: #741616;
+  }
+ .imgMenos{
+  width: 1rem;
+  margin-left: 5rem;
+ }
+ .listFactr{
+  width: 117%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 7% -35%;
+  padding: 1% 12%;
+ }
+ .error{
+   color: red;
+ }
+ @media only screen and (min-width: 768px){
+  .factura1 {
+    margin-top: 3.5rem;
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    overflow: none;
+  }
+  .imgMenos{
+    width: 2rem;
+    margin-left: 0rem;
+   }
+   .listFactr{
+    width: 100%;
+    justify-content: space-between;
+    margin: 7% -15%;
+    font-size: 3vh;
+   }
+   .total {
+    font-size: 2em;
+    padding: 0.7em;
+  }
+}

@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# PizzaQueen
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+​
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+​
 
-### `npm start`
+- [PizzaQueen](#pizza-queen)
+  - [Instalación](#instalacion)
+  - [Índice](#índice)
+  - [1. Preámbulo](#1-preámbulo)
+  - [2. Resumen del desarrollo del proyecto](#2-resumen-del-desarrollo-del-proyecto)
+  - [3. Carpetas que encontrarás en el repositorio](#3-carpetas-que-encontrarás-en-el-repositorio)
+  - [SRC](#src)
+    - [Components](#components)
+    - [Pages](#Pages)
+    - [README](#readme)
+  - [4. Look final del proyecto vista de ordenador](#4-look-final-del-proyecto-vista-de-ordenador)
+  - [5. Look final del proyecto vista de móvil](#5-look-final-del-proyecto-vista-de-móvil)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+​
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Instalación
 
-### `npm test`
+## Instalar dependencias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+npm install
+```
 
-### `npm run build`
+## 1. Preámbulo
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+​
+Este proyecto se realizo para una prueba técnica, se propuso una pagina de pedidos para pizzas, el objetivo principal de este proyecto es que el usuario creara su pizza de pendiendo de los ingredientes, que el clientes pudiera ver el historico de pedidos.
+​
+## 2. Resumen del desarrollo del proyecto
+​
+Se realizo una app para pedidos de pizzas, para la app se utilizo como tecnología ReactJS, para la base de datos Firebase, se enfoca en la creación de pizzas desde cero agregando los ingredientes, un historico donde se muestran las pizzas creadas y datos de estas.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 3. Carpetas que encontrarás en el repositorio
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## SRC
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+| Archivo       | Descripción                    |
+| :------------ | :----------------------------- |
+| app,js       | Cuerpo de la página            |
+| index.js     | router de la aplicación           |
+| items.js | data de los ingredientes|
+| firebaseguardarpedido.js | funcionalidad de guardar la pizza en firebase    |
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### Pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Archivo   | Descripción                   |
+| :-------- | :---------------------------- |
+| home.js | Página principal del proyecto |
+| cocina.js | Página donde se realiza el pedido |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Components
 
-### Code Splitting
+| Archivo   | Descripción                   |
+| :-------- | :---------------------------- |
+| dashboard.js | Historico de pedidos|
+| nombreComponente.js | componentes de la aplicación |
+​
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+​
 
-### Analyzing the Bundle Size
+### README
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+​
+| Archivo | Descripción |
+| :-------- | :---------------------------- |
+| readme.md | Información general del proyecto|
+​
+​
 
-### Making a Progressive Web App
+## 4. Look final del proyecto vista de ordenador
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+​
+![Inicio](./src/imagenesFinales/inicio.png)
+​
+![pantalla principal2](./src/imagenesFinales/lista.png)
 
-### Advanced Configuration
+​
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 5. Look final del proyecto vista de móvil
 
-### Deployment
+![pantalla principal movil](./src/imagenesFinales/inicialMovil.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![pantalla principal movil](./src/imagenesFinales/todos.png)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![pantalla principal movil](./src/imagenesFinales/favoritos.png)

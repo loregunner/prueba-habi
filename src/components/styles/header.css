@@ -1,0 +1,63 @@
+@font-face {
+  font-family: kind;
+  src: url(../styles/Kind.otf);
+}
+
+.Navbar {
+  position: absolute;
+  width: 100%;
+  background-color: #581010;
+  }
+
+.container-fluid{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Navbar__brand {
+  color: #ffffff;
+  height: 7em;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__brand:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Navbar__brand-logo {
+  margin-right: 0.9rem;
+  width: 5em;
+  padding-left: 2em;
+}
+.font-weight-light {
+  font-family: kind;
+  font-size: 9vw;
+}
+.font-weight-bold {
+  font-family: kind;
+  font-size: 9vw;
+}
+.Navbar__historico{
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-top: 2.8rem;
+  margin-right: 3rem;
+  font-family: kind;
+  font-size: 9vw;
+}
+@media only screen and (min-width: 768px){
+  .font-weight-light {
+    font-size: 6vw;
+  }
+  .font-weight-bold {
+    font-size: 6vw;
+  }
+  .Navbar__historico{
+    margin-top: 1rem;
+    font-size: 6vw;
+  }
+
+}

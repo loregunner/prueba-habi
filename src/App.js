@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route,Routes} from "react-router-dom";
+import Dashboard from "./components/dashboard";
+
+//import { Component } from 'react';
+// import OpcionesMenu from "./pages/opcionesMenu";
+ import Cocina from "./pages/cocina";
+// import PrincipalDesayuno from "./pages/principalDesayunos";
+// import PrincipalMesero from "./pages/principalMesero";
+//import NotFound from "./pages/notFound";
+import Home from "./pages/home";
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/cocina" element={<Cocina />} />
+        <Route exact path="/dashboard" element={<Dashboard />} />
+    </Routes>
+    </BrowserRouter>
   );
 }
 
 export default App;
+

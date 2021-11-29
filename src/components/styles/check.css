@@ -1,0 +1,67 @@
+.check{
+    width: 25%;
+    display: flex;
+}
+.imgCheck{
+    width: 30%;
+    padding: 7%;
+}
+
+.select{
+    height: 2rem;
+}
+
+.label{
+    margin-top: -0.7rem;
+}
+
+.popup{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
+    margin: 0.5rem;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+input{
+    border: 0.5px solid rgba(0, 0, 0, 0.23);
+    padding: 0.4rem;
+    border-radius: 4px;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+    display: block;
+    width: 98%;
+}
+
+.form-row-precio{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+
+.buttonSubmit{
+    border-radius:10px 10px 10px 10px;
+    background-color: #741616b0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    padding: 12px 79px;
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 768px){
+    .check{
+      width: 40%;
+    }
+    .imgCheck{
+        width: 35%;
+    }
+  }
