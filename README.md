@@ -83,16 +83,19 @@ Se realizo una app para pedidos de pizzas, para la app se utilizo como tecnolog�
 ## 4. Look final del proyecto vista de ordenador
 
 ​
-![Inicio](./src/imagenesFinales/inicio.png)
+![Inicio](./src/img/inicio-mas768.png)
 ​
-![pantalla principal2](./src/imagenesFinales/lista.png)
+![pantalla principal2](./src/img/pedido-mas768.png)
 
+![pantalla historico](./src/img/historico-mas768.png)
 ​
 
 ## 5. Look final del proyecto vista de móvil
 
-![pantalla principal movil](./src/imagenesFinales/inicialMovil.png)
+![pantalla principal movil](./src/img/inicio.png)
 
-![pantalla principal movil](./src/imagenesFinales/todos.png)
+![pantalla pedido1 movil](./src/img/pedido.png)
 
-![pantalla principal movil](./src/imagenesFinales/favoritos.png)
+![pantalla pedido2 movil](./src/img/pedido2.png)
+
+![pantalla historico movil](./src/img/historico.png)
