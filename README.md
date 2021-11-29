@@ -83,7 +83,7 @@ Se realizo una app para pedidos de pizzas, para la app se utilizo como tecnolog�
 ## 4. Look final del proyecto vista de ordenador
 
 ​
-![Inicio](./src/img/inicio-mas768.png)
+![inicio](./src/img/inicio-mas768.png)
 ​
 ![pantalla principal2](./src/img/pedido-mas768.png)
 
